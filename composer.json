@@ -14,7 +14,10 @@
   "autoload": {
     "psr-4": {
       "Maduser\\Argon\\Support\\": "src/"
-    }
+    },
+    "files": [
+      "src/polyfills/Override.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
