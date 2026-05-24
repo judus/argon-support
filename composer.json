@@ -1,6 +1,6 @@
 {
   "name": "maduser/argon-support",
-  "description": "",
+  "description": "Shared contracts and lightweight support helpers for the Argon package suite.",
   "type": "library",
   "license": "MIT",
   "minimum-stability": "dev",
