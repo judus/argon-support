@@ -3,7 +3,7 @@
   "description": "Shared contracts and lightweight support helpers for the Argon package suite.",
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "authors": [
     {
@@ -36,8 +36,6 @@
     "squizlabs/php_codesniffer": "^4.0",
     "vimeo/psalm": "^6.13"
   },
-  "repositories": [
-  ],
   "config": {
     "optimize-autoloader": true,
     "sort-packages": true,

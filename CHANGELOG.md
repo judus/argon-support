@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## [Unreleased]
+
+## [1.0.0] - 2026-05-24
 
 - Added a shared HTTP result responder contract for packages that need to delegate raw handler result conversion.
 - Restored the local quality gate across PHPUnit, Psalm, PHPCS, and Composer validation.
