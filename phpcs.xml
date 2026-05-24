@@ -29,4 +29,5 @@
 
     <!-- Ignore cache or generated resources -->
     <exclude-pattern>*/tests/resources/cache/*</exclude-pattern>
+    <exclude-pattern>*/src/polyfills/Override.php</exclude-pattern>
 </ruleset>

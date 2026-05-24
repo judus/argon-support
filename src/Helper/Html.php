@@ -46,12 +46,15 @@ final class Html implements HtmlableInterface, Stringable
         return $this->toHtml();
     }
 
+    /**
+     * @param array<array-key, string> $matches
+     */
     private function replacePlaceholder(array $matches): string
     {
-        $key = $matches[1];
+        $key = $matches[1] ?? '';
 
-        if (!array_key_exists($key, $this->context)) {
-            return $matches[0];
+        if ($key === '' || !array_key_exists($key, $this->context)) {
+            return $matches[0] ?? '';
         }
 
         $value = (string) $this->context[$key];
